@@ -8,6 +8,11 @@
   margin-left: 10px;
 }
 
+.social-list__link.social-list__link--bright {
+  fill: var(--main-bg-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .social-list__link {
   width: 44px;
   height: 44px;
@@ -24,9 +29,5 @@
   &:focus {
     fill: var(--main-bg-color);
     background-color: var(--accent-color);
-    &--bright {
-      fill: var(--main-bg-color);
-      background-color: rgba(255, 255, 255, 0.1);
-    }
   }
 }

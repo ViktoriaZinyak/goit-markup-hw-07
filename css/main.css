@@ -334,6 +334,11 @@ header {
   margin-left: 10px;
 }
 
+.social-list__link.social-list__link--bright {
+  fill: var(--main-bg-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .social-list__link {
   width: 44px;
   height: 44px;
@@ -348,10 +353,6 @@ header {
 .social-list__link:hover, .social-list__link:focus {
   fill: var(--main-bg-color);
   background-color: var(--accent-color);
-}
-.social-list__link:hover--bright, .social-list__link:focus--bright {
-  fill: var(--main-bg-color);
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .clients__title {
